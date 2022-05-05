@@ -466,7 +466,7 @@ module.exports = [
   {
     filter: ['strong', 'b'],
     replacement: function (content) {
-      return '**' + content + '**'
+      return '*' + content + '*'
     }
   },
 
