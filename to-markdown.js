@@ -426,7 +426,7 @@ module.exports = [
   {
     filter: 'p',
     replacement: function (content) {
-      return '\n\n' + content + '\n\n'
+      return '\\n\\n' + content + '\\n\\n'
     }
   },
 
