@@ -221,6 +221,7 @@ toMarkdown = function (input, options) {
   return output.replace(/^[\t\r\n]+|[\t\r\n\s]+$/g, '')
     .replace(/\n\s+\n/g, '\n\n')
     .replace(/\n{3,}/g, '\n\n')
+    .replace(/\n/g,'\\\n')
 }
 
 toMarkdown.isBlock = isBlock
